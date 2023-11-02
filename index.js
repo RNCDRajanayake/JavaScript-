@@ -11,10 +11,15 @@ function increment() {
 }
 
 function save() {
-
     let countStr = count + " - "
     saveEl.textContent += countStr 
     countEl.textContent = 0
     count = 0
 }
 
+function clean() {
+
+    saveEl.innerText = 0
+    saveEl.innerText = "previous entries :"
+    
+}
